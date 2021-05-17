@@ -1,2 +1,2 @@
-# RW research
+# RW Research
 Purely educational research
