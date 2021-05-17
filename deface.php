@@ -1,5 +1,5 @@
 <?php
-  $defacegif = "hax0rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr.gif";
+  $defacegif = "RWResearch/hax0rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr.gif";
 ?>
 
 <html>
