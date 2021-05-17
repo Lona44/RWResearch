@@ -2,4 +2,4 @@
 Purely educational research
 
 ## Notes
-Everything here assumes that this repository has been downloaded via a backdoor
+Everything here assumes that this entire repository has been downloaded via a backdoor
