@@ -1,2 +1,2 @@
-# rw_research
+# RW research
 Purely educational research
