@@ -23,7 +23,7 @@ if sys.argv[1] == "-e":
     
     # Need a way to change this back
     if base == "index":
-        os.rename('RWResearch/deface.php', '../index.php')
+        os.rename('RWResearch/deface.php', 'index.php')
 
 elif sys.argv[1] == "-d":
     
