@@ -1,5 +1,5 @@
   
-from Cryptography.fernet import Fernet
+from cryptography.fernet import Fernet
 import os
 
 # Assumes 'filekey.key' is created using the Fernet library
