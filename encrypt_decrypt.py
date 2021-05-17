@@ -23,7 +23,7 @@ if sys.argv[1] == "-e":
     
     # Need a way to change this back
     if base == "index":
-        os.rename('deface.php', 'index.php')
+        os.rename('RWResearch/deface.php', '../index.php')
 
 elif sys.argv[1] == "-d":
     
@@ -41,5 +41,5 @@ elif sys.argv[1] == "-d":
         os.rename(current_file, base + '.txt')
     else : 
         # rename the defaced index page back to 'deface.php'
-        os.rename('index.php', 'deface.php')
+        os.rename('index.php', 'RWResearch/deface.php')
         os.rename(current_file, base + '.php')
