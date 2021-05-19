@@ -22,6 +22,8 @@ Basic encryption using:
 
 Refer to https://cryptography.io/en/latest/fernet/
 
+Author: Lona44
+
 ------------------------------------------------    
             ***   INSTRUCTIONS  ***
 ------------------------------------------------    
