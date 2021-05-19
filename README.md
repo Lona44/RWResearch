@@ -13,11 +13,12 @@ Purely educational research
   2. Select a file you want encrypted using: `python RWResearch/encrypt_decrypt.py -e key.key file_to_be_encrypted`
   3. To decrypt, use `python RWResearch/encrypt_decrypt.py -d key.key file_to_be_decrypted`
 
-## Ideas to try
+## Ideas to try/improve on
   ### Attacker
   * Encrypt any kind of file, while being able to recover the correct file type when decrypting
   * Instead of defacing the site, create a duplicate that uploads the ransomware to legitimate customers
   * A better idea of using the key on the victim machine that ensures it's only used by the attacker
+  * Add some `this looks like a legit hacking tool` terminal art when running the tool (maybe progress bar, etc) for the lolz
   ### Defender
   * Use ELK/EFK/ stack (or Splunk) to set up monitoring
     * Can it pick up priv esc attempts
