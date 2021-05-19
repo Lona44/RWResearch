@@ -21,3 +21,4 @@ Purely educational research
 * Instead of defacing the site, create a duplicate that uploads the ransomware to legitimate customers
 * A better idea around using the key on the victim machine that ensures it's only used by the attacker
 * Add some `this looks like a legit hacking tool` terminal art when running the tool (maybe progress bar, etc) for the lolz
+* For the deface page, instead of a gif to download, link to a url that can play as the background and overlay text on top
