@@ -21,7 +21,7 @@ Purely educational research
   * A better idea around using the key on the victim machine that ensures it's only used by the attacker
   * Add some `this looks like a legit hacking tool` terminal art when running the tool (maybe progress bar, etc) for the lolz
   ### Defender
-  * Use ELK/EFK/ stack (or Splunk) to set up monitoring
+  * Use ELK/EFK stack (or Splunk) to set up monitoring
     * Can it pick up priv esc attempts
     * Nmap scans?
     * failed ssh tries
