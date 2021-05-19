@@ -1,4 +1,5 @@
 # RW Research
+![](https://cdn-images-1.medium.com/fit/t/1600/480/1*zSPtMkp70YN9JDhFRaHHXA.jpeg)
 Purely educational research
 
 ## Notes
