@@ -43,3 +43,43 @@ elif sys.argv[1] == "-d":
         # rename the defaced index page back to 'deface.php'
         os.rename('index.php', 'RWResearch/deface.php')
         os.rename(current_file, base + '.php')
+
+elif sys.argv[1] == "--h":
+    print('''
+    
+------------------------------------------------    
+------------------------------------------------
+
+▄▄▄▄·  ▄▄▄· .▄▄ · ▪   ▄▄· ▄▄▄   ▄▄▄· ▄· ▄▌▄▄▄▄▄
+▐█ ▀█▪▐█ ▀█ ▐█ ▀. ██ ▐█ ▌▪▀▄ █·▐█ ▄█▐█▪██▌•██  
+▐█▀▀█▄▄█▀▀█ ▄▀▀▀█▄▐█·██ ▄▄▐▀▀▄  ██▀·▐█▌▐█▪ ▐█.▪
+██▄▪▐█▐█ ▪▐▌▐█▄▪▐█▐█▌▐███▌▐█•█▌▐█▪·• ▐█▀·. ▐█▌·
+·▀▀▀▀  ▀  ▀  ▀▀▀▀ ▀▀▀·▀▀▀ .▀  ▀.▀     ▀ •  ▀▀▀ 
+
+Basic encryption using:
+* AES in CBC mode with a 128-bit key for encryption
+* PKCS7 padding
+* HMAC using SHA256 for authentication
+* Initialization vectors are generated using os.urandom()
+
+Refer to https://cryptography.io/en/latest/fernet/
+
+------------------------------------------------    
+            ***   INSTRUCTIONS  ***
+------------------------------------------------    
+(1) Generate key by executing 'key_generator.py'
+
+For encryption:
+(2) Use the key generated in (1) as follows:
+        
+    $ python3 basicrypt.py -e RANSOM.key file.txt
+    
+For decryption:
+(3) Remember the file type would have changed:
+
+    $ python3 basicrypt.py -d RANSOM.key file.RANSOM
+    
+Note: if 'index.php' is being encrypted, a deface 
+page will be generated automatically.
+
+''')
