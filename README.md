@@ -10,3 +10,5 @@ Purely educational research
 
 ## Instructiions
   1. Generate a key to lock the file you want locked running the following: `python RWResearch/attacker/key_generator.py`
+  2. Select a file you want encrypted using: `python RWResearch/encrypt_decrypt.py -e key.key file_to_be_encrypted`
+  3. To decrypt, use `python RWResearch/encrypt_decrypt.py -d key.key file_to_be_decrypted`
