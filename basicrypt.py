@@ -14,7 +14,7 @@ if sys.argv[1] == "--h":
 ██▄▪▐█▐█ ▪▐▌▐█▄▪▐█▐█▌▐███▌▐█•█▌▐█▪·• ▐█▀·. ▐█▌·
 ·▀▀▀▀  ▀  ▀  ▀▀▀▀ ▀▀▀·▀▀▀ .▀  ▀.▀     ▀ •  ▀▀▀ 
 
-Basic encryption using:
+Extremely Basic Encryption-based Ransomware using:
 * AES in CBC mode with a 128-bit key for encryption
 * PKCS7 padding
 * HMAC using SHA256 for authentication
