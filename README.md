@@ -14,6 +14,13 @@ Purely educational research
   3. To decrypt, use `python RWResearch/encrypt_decrypt.py -d key.key file_to_be_decrypted`
 
 ## Ideas to try
+  ### Attacker
   * Encrypt any kind of file, while being able to recover the correct file type when decrypting
   * Instead of defacing the site, create a duplicate that uploads the ransomware to legitimate customers
   * A better idea of using the key on the victim machine that ensures it's only used by the attacker
+  ### Defender
+  * Use ELK/EFK stack to set up monitoring
+    * Can it pick up priv esc attempts
+    * Nmap scans?
+    * failed ssh tries
+  * Get all monitoring systems dumping P1s and P2s to a Slack channel via webhooks?
