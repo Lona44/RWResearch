@@ -9,4 +9,4 @@ Purely educational research
   5. The key for decryption is saved on the victim's machine once `key_generator.py` is run. DO NOT DELETE once it is generated. Keep it stored on the victim's machine (remember, this isn't the real thing, demo only), or copy it to another machine for future decryption
 
 ## Instructiions
-  1. Generate a key to lock the file you want locked running the following: `python RWResearch/attacker/key_generator.py
+  1. Generate a key to lock the file you want locked running the following: `python RWResearch/attacker/key_generator.py`
