@@ -32,7 +32,7 @@ Author: Lona44
 For encryption:
 (2) Use the key generated in (1) as follows:
         
-    $ python3 RWResearch/basicrypt.py -e RANSOM.key file.txt
+    $ python3 RWResearch/basicrypt.py -e RANSOM.key file.html
     
 For decryption:
 (3) Remember the file type would have changed:
