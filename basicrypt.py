@@ -27,17 +27,17 @@ Author: Lona44
 ------------------------------------------------    
             ***   INSTRUCTIONS  ***
 ------------------------------------------------    
-(1) Generate key by executing 'key_generator.py'
+(1) Generate key by executing 'python RWResearch/attacker/key_generator.py'
 
 For encryption:
 (2) Use the key generated in (1) as follows:
         
-    $ python3 basicrypt.py -e RANSOM.key file.txt
+    $ python3 RWResearch/basicrypt.py -e RANSOM.key file.txt
     
 For decryption:
 (3) Remember the file type would have changed:
 
-    $ python3 basicrypt.py -d RANSOM.key file.RANSOM
+    $ python3 RWResearch/basicrypt.py -d RANSOM.key file.RANSOM
     
 Note: if 'index.html' is being encrypted, a deface 
 page will be generated automatically.
