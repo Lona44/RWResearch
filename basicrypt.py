@@ -39,7 +39,7 @@ For decryption:
 
     $ python3 basicrypt.py -d RANSOM.key file.RANSOM
     
-Note: if 'index.php' is being encrypted, a deface 
+Note: if 'index.html' is being encrypted, a deface 
 page will be generated automatically.
 
 ''')
